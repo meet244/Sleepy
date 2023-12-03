@@ -1,0 +1,6 @@
+{
+    "wall_path": "path/to/wallpaper/folder",
+    "sleep_time": "5",
+    "wake_time": "25",
+    "default_wall": "path/to/default/wallpaper"
+}
