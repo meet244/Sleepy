@@ -209,6 +209,7 @@ try:
 
         setWalpaper()
         down()
+        time.sleep(2)
 
         mouse = pg.position()
         prev = pg.screenshot()
