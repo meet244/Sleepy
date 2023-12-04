@@ -17,12 +17,12 @@ AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
 DefaultDirName={autopf}\{#MyAppName}
 DisableProgramGroupPage=yes
-LicenseFile=C:\Users\meet2\Documents\GitHub\Sleepy\LICENSE.txt
+LicenseFile=Sleepy\LICENSE.txt
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
 OutputDir=C:\Users\meet2\Desktop
 OutputBaseFilename=Sleepy_1.1_installer
-SetupIconFile=C:\Users\meet2\Documents\GitHub\Sleepy\assets\icon.ico
+SetupIconFile=Sleepy\assets\icon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -34,8 +34,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\meet2\Documents\GitHub\Sleepy\dist\sleepy\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\meet2\Documents\GitHub\Sleepy\dist\sleepy\_internal\*"; DestDir: "{app}/_internal"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "Sleepy\dist\sleepy\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "Sleepy\dist\sleepy\_internal\*"; DestDir: "{app}/_internal"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
